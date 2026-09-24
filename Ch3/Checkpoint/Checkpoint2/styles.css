@@ -1,0 +1,19 @@
+/* Checkpoint 1: first external stylesheet */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Checkpoint 2: contextual selectors */
+header nav a:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
+article h2 {
+  color: darkgreen;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
