@@ -1,0 +1,23 @@
+/* ch3.css - Lab 3.1 external style sheet
+   Step 2 original values: background white, text #000099, h1 black.
+   Step 4 changed them to: background black, text white, h1 #CCCCCC. */
+
+body {
+  background-color: black;              /* step 2 was: white */
+  color: white;                         /* step 2 was: #000099 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  background-color: #CCCCCC;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  color: #CCCCCC;                       /* step 2 was: black */
+}
+
+.news {
+  color: red;
+  font-style: italic;
+}
