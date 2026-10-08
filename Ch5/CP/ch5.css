@@ -1,0 +1,78 @@
+/* ch5.css - shared by Chapter 5 Checkpoints 1-4 */
+
+/* Checkpoint 1: box model */
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #f0f8ff;
+  max-width: 900px;
+}
+
+.main-content img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* Checkpoint 2: float and clear */
+.feature-photo {
+  float: left;
+  width: 200px;
+  margin: 0 18px 10px 0;
+  border-radius: 6px;
+}
+
+.clear-below {
+  clear: both;
+}
+
+/* Checkpoint 3: flexbox cards */
+.stats-row {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background-color: #f2f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Checkpoint 4: navigation and sticky header */
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.nav-list a:hover {
+  border-bottom: 3px solid rgba(255,255,255,0.6);
+}
+
+.nav-list a.active {
+  border-bottom: 3px solid #ffcc66;
+  font-weight: bold;
+}
+
+header {
+  background-color: #2F6B73;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
