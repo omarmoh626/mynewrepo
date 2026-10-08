@@ -1,0 +1,60 @@
+/* ch5lab.css - Lab 5.1 */
+
+body {
+  background-color: #f4f8fb;
+  color: #1a1a2e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-shadow: 3px 3px 5px #888888;
+  background-color: rgba(31, 78, 95, 0.5);
+  font-size: 4em;
+}
+
+#notice {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dotted-headline {
+  color: #1f4e5f;
+  border-bottom: 2px dotted #e07a1f;
+}
+
+#section {
+  font-size: small;
+  color: red;
+  background-color: white;
+  width: 80%;
+  box-shadow: 5px 5px 5px #828282;
+}
+
+footer {
+  background-color: lightblue;
+  color: darkblue;
+  padding: 10px;
+  border: thin dashed darkblue;
+}
+
+/* Step 5: no underline normally */
+a {
+  text-decoration: none;
+  padding: 2px 4px;
+}
+
+/* Step 4: three background colors.
+   Order matters (link, visited, hover) so hover still wins on a visited link. */
+a:link {
+  background-color: #d6ecf3;   /* unvisited: light blue */
+}
+
+a:visited {
+  background-color: #e6dcf5;   /* visited: light purple */
+}
+
+a:hover {
+  background-color: #ffe08a;   /* hover: yellow */
+  text-decoration: underline;  /* underline shows only on hover */
+}
